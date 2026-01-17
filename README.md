@@ -30,7 +30,7 @@ The focus is on learning Exam SRM & PA content rather than maximizing returns. I
 - Performance analytics with QuantStats
 
 ### Results
-- ~12% annualized return for 2005-2023
+- ~12% annualized return for 2005-2025
 - Sharpe ratio ~1.2+
 - ~38% volatility reduction vs buy-and-hold
 <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/2e9f0536-0a1f-43b7-a0d2-eaf9abfe3c4d" />
