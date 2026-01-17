@@ -18,13 +18,13 @@ volatility forecasts, such as GARCH(1,1), can be used to adjust risk in a simple
 The focus is on learning Exam SRM & PA content rather than maximizing returns. If one wants to predict the direction in which a stock is going, other strategies are recommended.
 
 ### Key Features
-- GARCH volatility forecasting using ARCH package
+- GARCH volatility forecasting of the SPY using ARCH package
 - Volatility-targeted position sizing
 - ADF and Ljung-Box diagnostics
 - Walk-forward backtesting
 - Performance analytics with QuantStats
 
 ### Results
-- ~12% annualized return
+- ~12% annualized return for 2005-2023
 - Sharpe ratio ~1.2+
 - ~38% volatility reduction vs buy-and-hold
