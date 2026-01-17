@@ -2,7 +2,7 @@ from src.data_loader import load_price_data
 from src.diagnostics import adf_test, ljung_box_test
 from src.backtest import run_backtest
 from src.baseline import buy_and_hold
-from src.utils import compare_performance
+from src.analysis import compare_performance
 from src.plots import (
     plot_equity_curves,
     plot_rolling_volatility,
