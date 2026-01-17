@@ -1,10 +1,14 @@
 ## How to Run:
 1. Get a free Tiingo API key
 2. Create a .env file in the project root
-'''bash
+```bash
 TIINGO_API_KEY="YOUR_KEY_HERE"
-4. pip install -r requirements.txt
-5. Run main.py
+```
+3. 
+```bash 
+pip install -r requirements.txt
+```
+4. Run main.py
 
 ## Volatility Modeling & Time Series Analysis
 
