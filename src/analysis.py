@@ -1,14 +1,19 @@
 import quantstats as qs
 
-def performance_report(returns):
+def compare_performance(strategy_returns, baseline_returns):
     qs.extend_pandas()
-    returns = returns / 100
-    sharpe = qs.stats.sharpe(returns)
-    max_dd = qs.stats.max_drawdown(returns)
-    ann_return = qs.stats.cagr(returns)
 
-    return {
-        "Annualized Return": ann_return,
-        "Sharpe Ratio": sharpe,
-        "Max Drawdown": max_dd
+    strategy = strategy_returns / 100
+    baseline = baseline_returns / 100
+
+    comparison = {
+        "Strategy CAGR": qs.stats.cagr(strategy),
+        "Baseline CAGR": qs.stats.cagr(baseline),
+        "Strategy Sharpe": qs.stats.sharpe(strategy),
+        "Baseline Sharpe": qs.stats.sharpe(baseline),
+        "Strategy Max DD": qs.stats.max_drawdown(strategy),
+        "Baseline Max DD": qs.stats.max_drawdown(baseline),
+        "Vol Reduction (%)": 1 - (strategy.std() / baseline.std())
     }
+
+    return comparison
