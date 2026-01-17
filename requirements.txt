@@ -3,6 +3,7 @@ pandas
 matplotlib
 statsmodels
 arch
-backtrader
 quantstats
-yfinance==0.2.28
+backtrader
+requests
+python-dotenv
