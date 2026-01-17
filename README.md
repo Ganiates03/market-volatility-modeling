@@ -1,7 +1,10 @@
 ## Volatility Modeling & Time Series Analysis
 
-This project implements a GARCH(1,1)-based volatility forecasting framework
-to detect volatility clustering and dynamically scale position sizes.
+This project explores how market volatility changes over time and how
+volatility forecasts, such as GARCH(1,1), can be used to adjust risk in a simple trading strategy.
+
+The focus is on learning time-series diagnostics, volatility modeling,
+and basic backtesting rather than maximizing returns. Other strategies such as moving averages are more widely used for these purposes.
 
 ### Key Features
 - GARCH volatility forecasting using ARCH package
