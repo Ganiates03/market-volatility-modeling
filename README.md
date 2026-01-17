@@ -1,3 +1,9 @@
+## How to Run:
+1. Get a free Tiingo API key
+2. Create a .env file in the project root w/ TIINGO_API_KEY="YOUR_KEY_HERE"
+3. pip install -r requirements.txt
+4. Run main.py
+
 ## Volatility Modeling & Time Series Analysis
 
 This project explores how market volatility changes over time and how
