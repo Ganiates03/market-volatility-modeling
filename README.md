@@ -1,6 +1,6 @@
 ## How to Run:
 1. Get a free Tiingo API key
-2. Create a .env file in the project root
+2. Create a .env file in the project root containing the following
 ```bash
 TIINGO_API_KEY="YOUR_KEY_HERE"
 ```
