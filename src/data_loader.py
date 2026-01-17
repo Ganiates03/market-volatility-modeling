@@ -1,7 +1,9 @@
 import os
 import pandas as pd
 import requests
+from dotenv import load_doatenv
 
+load_dotenv()
 
 def load_price_data(ticker="SPY", start="2005-01-01", end="2023-12-31"):
     api_key = os.getenv("TIINGO_API_KEY")
