@@ -1,8 +1,13 @@
 ## How to Run:
 1. Get a free Tiingo API key
-2. Create a .env file in the project root containing the following
+2. On Mac, type in Terminal 
 ```bash
-TIINGO_API_KEY=YOUR_KEY_HERE
+export TIINGO_API_KEY=YOUR_API_KEY
+```
+For Windows:
+```cmd
+set TIINGO_API_KEY=YOUR_KEY
+echo %TIINGO_API_KEY%
 ```
 3. 
 ```bash 
