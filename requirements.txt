@@ -5,4 +5,4 @@ statsmodels
 arch
 backtrader
 quantstats
-yfinance
+yfinance==0.2.28
