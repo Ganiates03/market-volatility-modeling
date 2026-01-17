@@ -2,11 +2,11 @@
 1. Get a free Tiingo API key
 2. On Mac, type in Terminal 
 ```bash
-export TIINGO_API_KEY=YOUR_API_KEY
+export TIINGO_API_KEY="YOUR_API_KEY"
 ```
 For Windows:
 ```cmd
-set TIINGO_API_KEY=YOUR_KEY
+set TIINGO_API_KEY="YOUR_KEY"
 echo %TIINGO_API_KEY%
 ```
 3. 
