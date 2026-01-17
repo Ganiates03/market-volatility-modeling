@@ -9,7 +9,7 @@ def load_price_data(ticker="SPY", start="2005-01-01", end="2023-12-31"):
 
     url = (
         f"https://api.tiingo.com/tiingo/daily/{ticker}/prices"
-        f"?startDate={start}&endDate={end}&resampleFreq=d&token={api_key}"
+        f"?startDate={start}&endDate={end}&resampleFreq=daily&token={api_key}"
     )
 
     response = requests.get(url)
