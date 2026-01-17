@@ -23,4 +23,4 @@ def run_backtest(data, target_vol=10.0, lookback=500):
         "position": positions
     }, index=returns.index[lookback:])
 
-    return result
+    return result, lookback
