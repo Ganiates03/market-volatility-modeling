@@ -1,8 +1,8 @@
+from src.analysis import compare_performance
 from src.data_loader import load_price_data
 from src.diagnostics import adf_test, ljung_box_test
 from src.backtest import run_backtest
 from src.baseline import buy_and_hold
-from src.analysis import compare_performance
 from src.plots import (
     plot_equity_curves,
     plot_rolling_volatility,
@@ -16,7 +16,7 @@ def main():
     print("Ljung-Box Test:")
     print(ljung_box_test(data['returns']))
 
-    strategy_results, start_idx = run_backtest(data)
+    strategy_results, start_idx = run_backtest(data, target_vol=15.0, lookback=500, ma_window=200)
     baseline_results = buy_and_hold(data, start_idx)
 
     comparison = compare_performance(
@@ -26,7 +26,14 @@ def main():
 
     print("\nPerformance Comparison")
     for k, v in comparison.items():
-        print(f"{k}: {v:.2%}")
+        if "Max DD" in k:
+            print(f"{k}: {v:.2%}")
+        elif "CAGR" in k:
+            print(f"{k}: {v:.2%}")
+        elif "Volatility" in k:
+            print(f"{k}: {v:.2%}")
+        else:
+            print(f"{k}: {v:.4f}")
 
     # Plots
     plot_equity_curves(
