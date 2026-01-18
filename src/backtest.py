@@ -2,9 +2,9 @@ import pandas as pd
 from src.garch_model import fit_garch, forecast_volatility
 from src.strategy import position_size
 
-def run_backtest(data, target_vol=10.0, lookback=500, ma_window=200):
+def run_backtest(data, target_vol=0.15, lookback=500, ma_window=200):
     returns = data['returns']
-    prices = data['Close']
+    prices = data['price']
 
     # Compute trend filter
     trend_ma = prices.rolling(ma_window).mean()
@@ -34,5 +34,4 @@ def run_backtest(data, target_vol=10.0, lookback=500, ma_window=200):
         "strategy_returns": realized_returns,
         "position": positions
     }, index=returns.index[lookback:])
-
     return result, lookback
