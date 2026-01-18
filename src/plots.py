@@ -7,7 +7,7 @@ def plot_equity_curves(strategy_returns, baseline_returns):
     base_equity = (1 + baseline_returns / 100).cumprod()
 
     plt.figure(figsize=(12, 6))
-    plt.plot(strat_equity, label="GARCH Vol Target Strategy")
+    plt.plot(strat_equity, label="Unleveraged GARCH + Trend Filter")
     plt.plot(base_equity, label="Buy & Hold", linestyle="--")
     plt.title("Equity Curve Comparison")
     plt.legend()
@@ -31,7 +31,7 @@ def plot_rolling_volatility(strategy_returns, baseline_returns, window=60):
 def plot_position_sizes(positions):
     plt.figure(figsize=(12, 4))
     plt.plot(positions, color="purple")
-    plt.title("Dynamic Position Sizing (Volatility Targeting)")
-    plt.ylabel("Leverage")
+    plt.title("Dynamic Position Sizing (Unleveraged Volatility Targeting)")
+    plt.ylabel("Exposure (0-1)")
     plt.grid(True)
     plt.show()
