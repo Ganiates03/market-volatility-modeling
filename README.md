@@ -27,6 +27,7 @@ The focus is on learning Exam SRM & PA content rather than maximizing returns. I
 - Volatility-targeted position sizing
 - ADF and Ljung-Box diagnostics
 - Walk-forward backtesting
+- Downtrend exposure filter
 - Performance analytics with QuantStats
 
 ### Results for 2005-2023
