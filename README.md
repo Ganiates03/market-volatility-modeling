@@ -29,13 +29,15 @@ The focus is on learning Exam SRM & PA content rather than maximizing returns. I
 - Walk-forward backtesting
 - Performance analytics with QuantStats
 
-### Results for 2005-2025
-- ~12% increase in CAGR
-- Sharpe ratio ~1.2+
-- ~38% (conditional) volatility reduction vs buy-and-hold
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/3f1e586c-b107-49fd-bf32-8b15b7e2cad2" />
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/6fab163c-e2f3-4a2d-8dad-2924796e37dc" />
-<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/0c1ed45b-cc39-466f-9602-c13b4165a8b8" />
+### Results for 2005-2023
+- ~8% increase in CAGR
+- Sharpe ratio ~1.0+
+- ~47% max drawdown reduction
+- Calmar ~1.5 increase
+- ~50% (conditional) volatility reduction vs buy-and-hold
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/c3886e76-38a5-4271-85da-284d9d005cee" />
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/8010f7e4-94aa-4432-a7b9-9b727012f2b5" />
+<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/2ae8c3ec-ee98-4193-8c4c-879471039320" />
 
 
 
