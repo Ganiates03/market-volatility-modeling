@@ -1,8 +1,23 @@
 import numpy as np
 
-def position_size(target_vol, forecast_vol, max_leverage=2.0):
+def position_size(
+    target_vol,
+    forecast_vol,
+    price,
+    trend_ma
+):
     """
-    Volatility targeting position sizing
+    Unlevered GARCH volatility targeting with trend filter
+
+    Returns position size in [0, 1]
     """
+
+    # Trend filter: no exposure in downtrend
+    if price <= trend_ma or np.isnan(trend_ma):
+        return 0.0
+
+    # Unlevered volatility targeting
     size = target_vol / forecast_vol
-    return np.clip(size, 0, max_leverage)
+
+    # Cap at 1.0 (NO leverage)
+    return np.clip(size, 0.0, 1.0)
