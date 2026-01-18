@@ -16,7 +16,7 @@ def main():
     print("Ljung-Box Test:")
     print(ljung_box_test(data['returns']))
 
-    strategy_results, start_idx = run_backtest(data, target_vol=15.0, lookback=500, ma_window=200)
+    strategy_results, start_idx = run_backtest(data, target_vol=0.15, lookback=500, ma_window=200)
     baseline_results = buy_and_hold(data, start_idx)
 
     comparison = compare_performance(
