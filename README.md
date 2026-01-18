@@ -1,6 +1,7 @@
 ## How to Run:
 1. Get a free Tiingo API key
-2. On Mac, type in Terminal 
+2. Set it as an environmental variable.
+On Mac, type in Terminal 
 ```bash
 export TIINGO_API_KEY="YOUR_API_KEY"
 ```
