@@ -35,6 +35,7 @@ The focus is on learning Exam SRM & PA content rather than maximizing returns. I
 - ~38% (conditional) volatility reduction vs buy-and-hold
 <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/3f1e586c-b107-49fd-bf32-8b15b7e2cad2" />
 <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/6fab163c-e2f3-4a2d-8dad-2924796e37dc" />
-<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/016b63fd-e7b7-4595-adb4-47dcd6fab062" />
+<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/0c1ed45b-cc39-466f-9602-c13b4165a8b8" />
+
 
 
