@@ -24,7 +24,7 @@ The focus is on learning Exam SRM & PA content rather than maximizing returns. I
 
 ### Key Features
 - GARCH volatility forecasting of the SPY using ARCH package
-- Volatility-targeted position sizing
+- Volatility-targeted position sizing w/ target of 15%
 - ADF and Ljung-Box diagnostics
 - Walk-forward backtesting
 - Downtrend exposure filter
