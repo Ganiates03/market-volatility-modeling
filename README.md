@@ -35,7 +35,7 @@ The focus is on learning Exam SRM & PA content rather than maximizing returns. I
 - ~47% max drawdown reduction
 - Calmar ~1.5 increase
 - ~50% (conditional) volatility reduction vs buy-and-hold
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/c3886e76-38a5-4271-85da-284d9d005cee" />
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/5d4c4814-c807-4b29-812b-c390ca261795" />
 <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/8010f7e4-94aa-4432-a7b9-9b727012f2b5" />
 <img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/2ae8c3ec-ee98-4193-8c4c-879471039320" />
 
